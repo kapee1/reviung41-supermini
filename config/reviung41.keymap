@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
@@ -21,12 +22,12 @@
 
         combo_prntscrn {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <27 28 29>;
+            key-positions = <25 26 27>;
         };
 
-        combo_winkey {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <36 38>;
+        caps_toggle {
+            bindings = <&kt CAPSLOCK>;
+            key-positions = <11 10>;
         };
     };
 
